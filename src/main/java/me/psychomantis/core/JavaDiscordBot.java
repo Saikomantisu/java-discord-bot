@@ -1,6 +1,5 @@
 package me.psychomantis.core;
 
-import javax.security.auth.login.LoginException;
 import me.psychomantis.commands.*;
 import me.psychomantis.listeners.BotListener;
 import me.psychomantis.managers.CommandManager;
@@ -10,7 +9,7 @@ import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
 
-public class NoizeBot {
+public class JavaDiscordBot {
 
     static JDA builder;
     static CommandManager manager;
